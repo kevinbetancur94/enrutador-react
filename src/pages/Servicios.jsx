@@ -1,6 +1,10 @@
+import Header from "../components/Header"
 const Servicios = () => {
   return (
-    <div className="servicios">Servicios</div>
+    <div className="servicios">
+      <Header />
+      <h1>Servicios</h1>
+    </div>
   )
 }
 
